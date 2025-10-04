@@ -1,0 +1,174 @@
+{
+  "seller": [
+    {
+      "id": "20f2",
+      "name": "Alex",
+      "email": "alex@gmail.com",
+      "password": "alex123"
+    },
+    {
+      "id": "21db",
+      "name": "Alex",
+      "email": "alex@gmail.com",
+      "password": "Alex123"
+    },
+    {
+      "id": "756c",
+      "name": "Alex",
+      "email": "alex@gmail.com",
+      "password": "Alex123"
+    },
+    {
+      "id": "d0cf",
+      "name": "Alex",
+      "email": "alex@gmail.com",
+      "password": "alex123"
+    },
+    {
+      "id": "c6cd",
+      "name": "Anurag sahu",
+      "email": "anu.sahu9589@gmail.com",
+      "password": "Anu123"
+    },
+    {
+      "id": "c6e5",
+      "name": "Seller Boy",
+      "email": "manager@gmail.com",
+      "password": "seller123"
+    },
+    {
+      "id": "2e72",
+      "name": "Relax",
+      "email": "relax@gmail.com",
+      "password": "relax123"
+    },
+    {
+      "id": "fe98",
+      "name": "Anurag Sahu",
+      "email": "anu.sahu9589@gmail.com",
+      "password": "anu123"
+    }
+  ],
+  "product": [
+    {
+      "name": "mouse",
+      "price": "495",
+      "color": "black",
+      "category": "electronic item",
+      "description": "If the basics are all you need, you'll enjoy comfortable",
+      "image": "data:image/jpeg;base64,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",
+      "id": "1a6e"
+    },
+    {
+      "id": "8385",
+      "name": " Athleisure Shoes for Men",
+      "price": "1800",
+      "color": "white",
+      "category": "shose",
+      "description": "Check website for latest pricing and availability. Images may be subject to copyright.",
+      "image": "data:image/jpeg;base64,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"
+    },
+    {
+      "id": "0dfc",
+      "name": "formal pant ",
+      "price": "1200",
+      "color": "gray",
+      "category": "pant",
+      "description": "mages may be subject",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRhQDMVZeF8VA4oGVzcQtAf4fyw65qO1LPNHg&s"
+    },
+    {
+      "name": "concepts car",
+      "price": "9,999",
+      "color": "black",
+      "category": "car",
+      "description": "Big promotion for you when buying Ride on Electric kids car",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQxyUEQGI1KN5GP-MQgWQRx4kRsNUQVsUYtoQ&s",
+      "id": "ae65"
+    },
+    {
+      "id": "ff84",
+      "name": "fountain pen",
+      "price": "499",
+      "color": "Black",
+      "category": "Study",
+      "description": "Close up of fountain pen",
+      "image": "https://as1.ftcdn.net/v2/jpg/02/11/56/96/1000_F_211569668_quz9eMa9m6lFwlcfWJXcwU27BMKJXcKD.jpg"
+    }
+  ],
+  "User": [
+    {
+      "id": "f02d",
+      "name": "Alex",
+      "email": "alex@gmail.com",
+      "password": "alex123"
+    },
+    {
+      "id": "e45a",
+      "name": "relax",
+      "email": "relax@gmail.com",
+      "password": "relax"
+    },
+    {
+      "id": "e448",
+      "name": "",
+      "email": "",
+      "password": ""
+    },
+    {
+      "id": "a24d",
+      "name": "Anurag Sahu",
+      "email": "anu.sahu9589@gmail.com",
+      "password": "anu123"
+    },
+    {
+      "id": "9f01",
+      "name": "Alex",
+      "email": "alex@gmail.com",
+      "password": "alex123"
+    }
+  ],
+  "Cart": [],
+  "Order": [
+    {
+      "id": "7d5f",
+      "email": "anu.sahu9589@gmail.com",
+      "address": "Ashoka garden thana bhopal",
+      "contact": "44444444444444",
+      "totalPrice": 16270,
+      "userId": "a24d"
+    },
+    {
+      "id": "ef6b",
+      "email": "anu.sahu9589@gmail.com",
+      "address": "Ashoka garden thana bhopal",
+      "contact": "44444444444444",
+      "totalPrice": 14800,
+      "userId": "a24d"
+    },
+    {
+      "id": "a638",
+      "email": "manager@gmail.com",
+      "address": "Ashoka garden thana bhopal",
+      "contact": "44444444444444",
+      "totalPrice": 14800,
+      "userId": "a24d"
+    },
+    {
+      "id": "0b54",
+      "email": "manager@gmail.com",
+      "address": "Ashoka garden thana bhopal",
+      "contact": "44444444444444",
+      "totalPrice": 3775,
+      "userId": "a24d"
+    },
+    {
+      "id": "3ac1",
+      "email": "alex@gmail.com",
+      "address": "Bhopal",
+      "contact": "1254637890",
+      "totalPrice": 1933.825,
+      "userId": "9f01"
+    }
+  ]
+}

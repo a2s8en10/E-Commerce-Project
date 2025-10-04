@@ -1,0 +1,117 @@
+/* Navbar overall style */
+.nav {
+  background-color: #ffffff;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  padding: 1rem 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  font-family: "Segoe UI", sans-serif;
+  position: relative;
+}
+
+/* Logo/Heading */
+.nav h1 a {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #333;
+  margin-right: 2rem;
+  text-decoration: none;
+}
+
+/* Search bar */
+.nav-search {
+  flex: 1;
+  display: flex;
+  width: 100%;
+  gap: 0.1rem;
+  margin: 0 2rem;
+}
+
+.nav-search input {
+  flex: 1;
+  padding: 0.5rem 0.75rem;
+  border: 1px solid #ccc;
+  border-radius: 4px 0 0 4px;
+  font-size: 1rem;
+}
+
+.nav-search button {
+  padding: 0.5rem 1rem;
+  border: none;
+  background-color: #007bff;
+  color: white;
+  font-size: 1rem;
+  border-radius: 0 4px 4px 0;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.nav-search button:hover {
+  background-color: #0056b3;
+}
+
+/* Navigation links */
+.goto ul{
+  list-style: none;
+  display: flex;
+  gap: 1.5rem;
+}
+
+.nav ul li a {
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+  transition: color 0.3s;
+  cursor: pointer;
+}
+
+.nav ul li a:hover {
+  color: #007bff;
+}
+
+/* Responsive (for smaller screens) */
+@media (max-width: 768px) {
+  .nav {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1rem;
+  }
+
+  .nav-search {
+    width: 100%;
+    margin: 0;
+  }
+
+  .nav ul {
+    width: 100%;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+}
+
+/* search */
+.suggested-result li {
+  display: list-item;
+  background-color: #fff;
+  width: 300px;
+  list-style: none;
+  padding: 10px 15px;
+  border-bottom: 1px solid #eee;
+  cursor: pointer;
+}
+
+.suggested-result {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  list-style: none;
+  padding: 0;
+  margin-top: 5px;
+  z-index: 1000;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  position: absolute;
+  top: 60px;
+  margin-left: 202px;
+}

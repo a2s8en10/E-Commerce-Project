@@ -1,0 +1,32 @@
+<div class="product-list">
+  <h1>All Product List</h1>
+  <p class="massage-p">{{productMassage}}</p>
+  <table>
+    <thead>
+      <tr>
+        <th>Image</th>
+        <th>Name</th>
+        <th>Price</th>
+        <th>Color</th>
+        <th>Category</th>
+        <th>Description</th>
+        <th>Remove Item</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let item of productList">
+        <td><img src="{{item.image}}" alt=""></td>
+        <td>{{item.name|uppercase}}</td>
+        <td>{{item.price}}</td>
+        <td>{{item.color|titlecase}}</td>
+        <td>{{item.category|titlecase}}</td>
+        <td>{{item.description|titlecase}}</td>
+        <td>
+          <fa-icon (click)="deleteProduct(item.id)" [icon]="icon"></fa-icon>
+          <a class="update" routerLink="/seller-update-product/{{item.id}}"><fa-icon [icon]="editIcon"></fa-icon></a>
+          <!-- <button (click)="deleteProduct(item.id)">Remove</button> -->
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>

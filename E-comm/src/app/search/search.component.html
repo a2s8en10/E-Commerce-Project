@@ -1,0 +1,12 @@
+<div class="row search-item" *ngFor="let item of searchResult">
+  <div class="col-sm-3"><a routerLink="/details/{{item.id}}">
+      <img src="{{item.image}}" alt="">
+    </a>
+  </div>
+  <div class="col-sm-8 details">
+    <h6><a routerLink="/details/{{item.id}}">{{item.name|uppercase}}</a></h6>
+    <p><b>₹{{item.price}}</b></p>
+    <p><span>{{item.color|titlecase}}</span><span>{{item.description|titlecase}}</span></p>
+    <p>Good services</p>
+  </div>
+</div>

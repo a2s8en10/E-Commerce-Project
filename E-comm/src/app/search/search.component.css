@@ -1,0 +1,35 @@
+/* .card img {
+  object-fit: cover;
+}
+.col-md-3 .card-title {
+  font-weight: bold;
+}
+.text-center{
+  margin-top: 5px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+
+} */
+
+.search-item{
+  margin:25px auto;
+  width : 800px;
+  border-top: 3px solid #ddd;
+  padding: 10PX;
+}
+.search-item img{
+  width: 100%;
+  object-fit: contain;
+  height: 150px;
+}
+.search-item h6 a{
+  font-size: 1.5rem;
+  font-family: "Segoe UI", sans-serif;
+  color: rgb(84, 84, 196);
+  text-decoration: none;
+}
+.search-item p{
+  margin: 5px;
+}
+.search-item span{
+  margin-right: 10px;
+}

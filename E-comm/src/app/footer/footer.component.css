@@ -1,0 +1,7 @@
+.footer-link {
+  color: rgb(84, 84, 196);
+  text-decoration: none;
+}
+.footer-link:hover {
+  text-decoration: underline;
+}

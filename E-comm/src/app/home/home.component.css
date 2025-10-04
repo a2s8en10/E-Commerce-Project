@@ -1,0 +1,24 @@
+.product-image {
+  object-fit: contain;
+  height: 600px;
+  width: 100%;
+  margin-top: 10px;
+}
+  .card img {
+    object-fit: cover;
+  }
+  .col-md-3 .card-title {
+    font-weight: bold;
+  }
+.trend-product {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-decoration: none;
+}
+.carousel-caption h3 a{
+  text-decoration: none;
+  color: white;
+
+}

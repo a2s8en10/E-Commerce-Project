@@ -1,0 +1,30 @@
+<div class="my-orders container py-4">
+    <h1 class="text-center mb-4">My Orders</h1>
+
+    <div class="row fw-bold border-bottom pb-2 mb-3 text-center">
+        <div class="col-sm-2">Orders</div>
+        <div class="col-sm-2">Order Id</div>
+        <div class="col-sm-2">Price</div>
+        <div class="col-sm-2">Status</div>
+        <div class="col-sm-2">Cancel Order</div>
+    </div>
+
+    <div class="row align-items-center text-center py-2 border-bottom" *ngFor="let order of orderData">
+        <div class="col-sm-2">
+            <img class="img-fluid rounded shadow-sm order-img"
+                src="https://www.clipartmax.com/png/middle/210-2106541_track-my-order-beach-volleyball.png" alt="order">
+        </div>
+        <div class="col-sm-2">
+            <span>#{{order.id}}</span>
+        </div>
+        <div class="col-sm-2">
+            <span>₹{{order.totalPrice}}</span>
+        </div>
+        <div class="col-sm-2">
+            <span class="badge bg-warning text-dark">In Progress</span>
+        </div>
+        <div class="col-sm-2">
+            <button class="btn btn-danger btn-sm" (click)="cancelOrder(order.id)">Cancel</button>
+        </div>
+    </div>
+</div>

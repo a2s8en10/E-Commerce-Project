@@ -1,0 +1,54 @@
+<!-- <div class="row product-details" *ngIf="showDetail">
+  <div class="col-sm-6">
+    <img class="product-image" src="{{showDetail.image}}" alt="">
+  </div>
+  <div class="col-sm-6">
+    <div class="details">
+      <h1>{{showDetail.name}}</h1>
+      <h3>Price : {{showDetail.price}}</h3>
+      <div>Color :<h3 [style.backgroundColor]="showDetail.color" class="product-color"></h3>
+      </div>
+      <h6>Category : {{showDetail.category}}</h6>
+      <h6>Description : {{showDetail.description}}</h6>
+      <button class="form-button">Buy Now</button>
+      <button class="form-button">Add to Cart</button>
+      <div class="quantity-group">
+        <button>-</button>
+        <input type="text" value="1" />
+        <button>+</button>
+
+      </div>
+    </div>
+  </div>
+</div> -->
+
+<div class="container my-4">
+  <div class="product-details row" *ngIf="showDetail">
+
+    <!-- Product Image -->
+    <div class="col-sm-6">
+      <img src="{{showDetail.image}}" alt="Product Image" class="img-fluid product-image" />
+    </div>
+
+    <!-- Product Details -->
+    <div class="col-sm-6 details">
+      <h1>{{showDetail.name|titlecase}}</h1>
+      <h3>₹{{showDetail.price}}</h3>
+      <h6>{{showDetail.description}}</h6>
+
+      <div class="d-flex align-items-center mb-3">
+        Color :<h3 [style.backgroundColor]="showDetail.color" class="product-color"></h3>
+      </div>
+
+      <div class="quantity-group">
+        <button type="button" (click)="increase('minus')">-</button>
+        <input type="text" value="{{productQuantity}}" />
+        <button type="button" (click)="increase('plus')">+</button>
+      </div>
+
+      <button class=" form-button">Buy Now</button>
+        <button *ngIf="!removeCart" class="form-button" (click)="AddToCart()">Add to Cart</button>
+        <button *ngIf="removeCart" class="form-button" (click)="removeToCart(showDetail.id)">Remove to Cart</button>
+      </div>
+    </div>
+  </div>

@@ -1,0 +1,120 @@
+.cart-page {
+    margin-top: 40px;
+    margin-bottom: 50px;
+    padding: 0 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.cart-page h1 {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+    font-weight: bold;
+    color: #333;
+}
+
+/* CART ITEMS */
+.details img {
+    height: 100px;
+    object-fit: contain;
+}
+
+.details ul {
+    padding: 15px;
+    margin-bottom: 20px;
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #fff;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+    transition: box-shadow 0.3s ease;
+}
+
+.details ul:hover {
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.details ul li {
+    flex: 1 1 20%;
+    text-align: center;
+    padding: 5px;
+    min-width: 100px;
+}
+
+.details ul li span {
+    display: block;
+    font-size: 1rem;
+    color: #444;
+}
+
+.details ul li button {
+    margin-top: 10px;
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 0.9rem;
+    transition: background-color 0.3s ease;
+}
+
+.details ul li button:hover {
+    background-color: #c82333;
+}
+
+/* SUMMARY */
+.summary {
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    padding: 20px;
+    border: 1px solid #ddd;
+}
+
+.summary h3 {
+    text-align: center;
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.summary ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.summary ul li {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+    font-size: 1rem;
+    border-bottom: 1px solid #eee;
+    color: #555;
+}
+
+.summary ul li:last-child {
+    border-bottom: none;
+    font-weight: bold;
+}
+
+.summary button {
+    margin-top: 20px;
+    width: 100%;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 12px 16px;
+    border-radius: 4px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.summary button:hover {
+    background-color: #218838;
+}
